@@ -5,8 +5,8 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.3</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<version>3.4.4</version>
+		<relativePath/> 
 	</parent>
 	<groupId>com.daniel.curso.springboot.webapp</groupId>
 	<artifactId>springboot-web</artifactId>
@@ -54,11 +54,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
-	<dependency>
+		<dependency>
 		<groupId>org.springframework</groupId>
 		<artifactId>spring-web</artifactId>
 </dependency>
+	</dependencies>
+	
+
 	<build>
 		<plugins>
 			<plugin>
